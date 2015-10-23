@@ -6,11 +6,44 @@ src: url('../fonts/verlaglight.otf') format("opentype");
 font-family: VerlagBold;
 src: url('../fonts/verlagbold.otf') format("opentype");
 }
+@font-face {
+font-family: VerlagBook;
+src: url('../fonts/verlagbook.otf') format("opentype");
+}
 h1{
     font-family: VerlagLight;
     color: #666666;
     margin-left: 50px;
     font-size: 20pt;
+}
+
+.div-cor-header{
+    margin-top: 20px;
+    display: table-cell;
+    width: 400px
+}
+
+.div-cor-header img{
+    height:20px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+
+.intro h1{
+    margin-left: 200px;
+    margin-top: 200px;
+    font-family: VerlagBook;
+    color: #ffffff;
+    font-size: 80pt;
+}
+
+.div-cor-header h1{
+    font-family: VerlagBold;
+    color: #ffffff;
+    font-size: 12pt;
 }
 
 a{
@@ -23,6 +56,10 @@ a{
 
 .navbar{
     height: 140px;
+}
+
+.modal{
+    background-color: #fc0fc0;
 }
 
 .header{
@@ -55,7 +92,6 @@ a{
     color: #666666;
     /* border-radius: 10px; */
 }
-
 .pink:hover{
     background-color: #FF00EE;
     color: #FFFFFF;
