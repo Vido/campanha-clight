@@ -1,0 +1,47 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    /* font-family: Verdana, Geneva, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    float:left;
+    margin: 5px;
+    
+    text-align: center;
+    vertical-align: middle;
+    
+    line-height: 169px;       /* the same as your div height */
+    width:203px;
+    /* padding-bottom: 20%; */
+    background-color: #EEEEEE;
+    color: #666666;
+    /* border-radius: 10px; */
+}
+
+.pink:hover{
+    background-color: #FF00EE;
+    color: #FFFFFF;
+}
+
+.orange:hover{
+    background-color: #FF9900;
+    color: #FFFFFF;
+}
+
+.green:hover{
+    background-color: #00FF66;
+    color: #FFFFFF;
+}
+
+.blue:hover{
+    background-color: #00BBFF;
+    color: #FFFFFF;
+}
