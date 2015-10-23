@@ -32,12 +32,33 @@ h1{
 
 }
 
+.produto img{
+    height:400px;
+}
+
 .intro h1{
     margin-left: 200px;
     margin-top: 200px;
     font-family: VerlagBook;
     color: #ffffff;
     font-size: 80pt;
+}
+.texto{
+    font-family: VerlagLight;
+    color: #FFF;
+    margin-left: 50px;
+    font-size: 12pt;
+    width: 500px;
+    float: right;
+}
+
+.side h1{
+    margin-left: 80px;
+    margin-top: 200px;
+    font-family: VerlagBook;
+    color: #ffffff;
+    font-size: 50pt;
+    width: 200px;
 }
 
 .div-cor-header h1{
