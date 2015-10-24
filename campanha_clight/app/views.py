@@ -1,7 +1,34 @@
 from django.shortcuts import render
 
 # Create your views here.
+
+def compartilhe(request, palavra):
+    textos = __getType(palavra)
+
+    context = {
+    'cor': textos['cor'],
+    'palavra': textos['palavra'],
+    'class': textos['class'],
+    }
+    return render(request,
+                  'app/compartilhe.html',
+                  context=context)
+
 def cor(request, palavra):
+    textos = __getType(palavra)
+
+    context = {
+    'cor': textos['cor'],
+    'palavra': textos['palavra'],
+    'class': textos['class'],
+    }
+    return render(request,
+                  'app/cor.html',
+                  context=context)
+
+
+def __getType(palavra):
+
     if(palavra == "romantica"):
         mpalavra = "ROMÂNTICA"
         cor = "ROSA"
@@ -51,12 +78,11 @@ def cor(request, palavra):
         cor = "AZUL"
         mclass="confiante"
 
-    context = {
+    textos = {
         'cor': cor,
         'palavra': mpalavra,
         'class': mclass,
     }
-    return render(request,
-                  'app/cor.html',
-                  context=context)
+
+    return textos
 
