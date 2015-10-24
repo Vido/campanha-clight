@@ -16,11 +16,19 @@
                 <img class="clight-logo img-responsive" src="{% static 'app/imagens/logo-clight-branco.png' %}">
             </div>
         </div> <!-- row -->
-        <div class="row">
-           <div class="col-md-9 col-xs-8">
-                <h1 class="font-white"> {{ cor }}</h1>
-            </div>
-        </div>
+        <div class="container-fluid fill">
+            <div class="row text-center comp-row fill">
+                <div class="col-md-5 text-center vertical-center fill title-side">
+                    <h2 class='text-center'>{{ cor }}</h2>
+                </div>
+                <div class="col-md-6 text-left fill font-white comp-font">
+                    <p>De rosa, você está feliz. E mais do que isso, está também romântica.</p>
+                    <p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.
+                    <p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p>
+                    <p>Até porque o amor deixa todo mundo feliz.</p>
+                </div>
+            </div> <!-- row -->
+        </div> 
     </div>
 </body>
 {% endblock %}
