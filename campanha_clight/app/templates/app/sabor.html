@@ -1,26 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Clight</title>
-<link rel="stylesheet" type="text/css" href="css/ipad.css">
-</head>
+{% extends 'app/base.html' %}
+{% load static from staticfiles %}
+{% block body_content %}
 <body>
-    <div class="navbar">
-            <div class="div-cor-header">
-                <img src="imagens/voltar-button.png">
-                <h1> SUA COR DO DIA </h1>
-            </div>
-            <div class="logo">
-                <img src="imagens/logo-clight.png">
-            </div>
-    </div>
-    <div class="produto">
-        <img src="imagens/produto-1.png">
-    </div>
-    <div class="footer">
-        <h1>UVA: O LADO ROMÂNTICO DE CLIGHT.</h1>
-    </div>
-</body>
 
-</html>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 col-xs-1">
+                <a href="{% url 'compartilhe' class %}">
+                    <img class="img-voltar img-responsive" src="{% static 'app/imagens/voltar-button.png' %}">
+                </a>
+            </div>
+           <div class="col-md-9 col-xs-8">
+                <h1 class="texto-header"> SUA COR DO DIA</h1>
+            </div>
+            <div class="col-md-offset-2 col-xs-offset-4">
+                <img class="clight-logo img-responsive" src="{% static 'app/imagens/logo-clight.png' %}">
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container-fluid -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-offset-2">
+                <h1>SUA COR FOI PUBLICADA.</h1>
+                <h1>SABE QUAL SABOR ESTÁ COMBINANDO COM VOCÊ HOJÊ?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="img-responsive center-block" src="{% static image %}">
+            </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>UVA: O LADO ROMÂNTICO DE CLIGHT.</h1>
+            </div>
+        </div>
+
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container-fluid -->
+</body>
+{% endblock %}

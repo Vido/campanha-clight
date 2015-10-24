@@ -27,7 +27,7 @@ def __getType(palavra):
         mpalavra = "ROMÂNTICA"
         cor = "ROSA"
         mclass = "romantica"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "livre":
         mpalavra = "LIVRE"
@@ -38,61 +38,61 @@ def __getType(palavra):
         mpalavra = "PODEROSA"
         cor = "ROSA"
         mclass = "poderosa"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "descolada":
         mpalavra = "DESCOLADA"
         cor = "LARANJA"
         mclass = "descolada"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "forte":
         mpalavra = "FORTE"
         cor = "LARANJA"
         mclass = "forte"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "alegre":
         mpalavra = "ALEGRE"
         cor = "LARANJA"
         mclass = "alegre"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "feliz":
         mpalavra = "FELIZ"
         cor = "VERDE"
         mclass = "feliz"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "inspiradora":
         mpalavra = "INSPIRADORA"
         cor = "VERDE"
         mclass = "inspiradora"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "otimista":
         mpalavra = "OTIMISTA"
         cor = "VERDE"
         mclass = "otimista"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "sincera":
         mpalavra = "SINCERA"
         cor = "AZUL"
         mclass = "sincera"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "tranquila":
         mpalavra = "TRANQUILA"
         cor = "AZUL"
         mclass = "tranquila"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
 
-    elif palavra == "tranquila":
+    elif palavra == "confiante":
         mpalavra = "CONFIANTE"
         cor = "AZUL"
         mclass = "confiante"
-        image = "produto-1.png"
+        image = "app/imagens/produto-1.png"
     else:
         raise Http404("Page not Found")
 
