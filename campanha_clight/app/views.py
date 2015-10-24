@@ -1,15 +1,16 @@
 from django.shortcuts import render
 
 # Create your views here.
-def cor(request):
-    palavra = request.palavra
+def cor(request, palavra):
     if(palavra == "romantica"):
-        palavra = "ROMÂNTICA"
+        mpalavra = "ROMÂNTICA"
         cor = "ROSA"
+        mclass="romantica"
 
     context = {
         'cor': cor,
-        'palavra': palavra,
+        'palavra': mpalavra,
+        'class': mclass,
     }
     return render(request,
                   'app/cor.html',

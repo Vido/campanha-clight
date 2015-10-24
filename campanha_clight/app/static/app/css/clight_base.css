@@ -16,15 +16,60 @@ h1{
     margin-left: 50px;
     font-size: 20pt;
 }
-/* section bg pink */
+/* section pagina cores */
 
 .font-white{
     color: #fff;
     margin-left: -20px;
 }
-.bg-pink
+.bg-romantica
 {
     background-color: #fc0fc0;
+}
+.bg-livre
+{
+    background-color: #fc0fc0;
+}
+.bg-poderosa
+{
+    background-color: #fc0fc0;
+}
+.bg-descolada
+{
+    background-color: #FF9900;
+}
+.bg-forte
+{
+    background-color: #FF9900;
+}
+.bg-alegre
+{
+    background-color: #FF9900;
+}
+.bg-feliz
+{
+    background-color: #00FF66;
+}
+.bg-inspiradora
+{
+    background-color: #00FF66;
+}
+.bg-otimista
+{
+    background-color: #00FF66;
+}
+
+.bg-sincera
+{
+    background-color: #00BBFF;
+}
+.bg-tranquila
+{
+    background-color: #00BBFF;
+}
+.bg-confiante
+{
+    background-color: #00BBFF;
 }
 
 .img-voltar{

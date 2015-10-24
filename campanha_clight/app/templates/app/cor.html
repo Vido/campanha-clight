@@ -1,7 +1,7 @@
 {% extends 'app/base.html' %}
 {% load static from staticfiles %}
 {% block body_content %}
-<body class="bg-pink">
+<body class='bg-{{class}}'>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1 col-xs-1">
@@ -10,14 +10,14 @@
                 </a>
             </div>
            <div class="col-md-9 col-xs-8">
-                <h1 class="font-white"> {{palavra}}: SUA COR DO DIA</h1>
+                <h1 class="font-white"> {{ palavra }}: SUA COR DO DIA</h1>
             </div>
             <div class="col-md-offset-2 col-xs-offset-4">
                 <img class="clight-logo img-responsive" src="{% static 'app/imagens/logo-clight-branco.png' %}">
             </div>
     </div> <!-- row -->
         <div class="intro">
-            <h1>{{cor}}</h1>
+            <h1>{{ cor }}</h1>
         </div>
 </body>
 {% endblock %}
