@@ -97,13 +97,31 @@ h1{
     height:400px;
 }
 
-.intro h1{
-    margin-left: 200px;
-    margin-top: 200px;
+h2 {
     font-family: VerlagBook;
     color: #ffffff;
     font-size: 80pt;
 }
+
+html{
+    height:80%;
+}
+
+.fill{
+    height:100%;
+}
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+/*
+    flex-direction: row;
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+*/
+}
+
 .texto{
     font-family: VerlagLight;
     color: #FFF;
