@@ -41,6 +41,13 @@ h1{
 
 /* section pagina cores */
 
+.title-color{
+    font-size: 100pt;
+}
+.color-row{
+    padding: 90px;
+}
+
 .font-white{
     color: #fff;
 }
