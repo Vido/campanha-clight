@@ -1,40 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-
-    <title>Clight</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="css/clight_base.css">
-  </head>
-
-    <body>
-    <div class="navbar">
-        <div class="header">
-            <h1> QUAL ADJETIVO DESCREVE VOCÊ HOJE? </h1>
-        </div>
-        <div class="logo">
-            <img src="imagens/logo-clight-branco.png">
-        </div>
-    </div>
+{% extends 'app/base.html' %}
+{% load static from staticfiles %}
+{% block body_content %}
+<body class="bg-pink">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 col-xs-1">
+                <a href="{% url 'index' %}">
+                    <img class="img-voltar img-responsive" src="{% static 'app/imagens/voltar.png' %}">
+                </a>
+            </div>
+           <div class="col-md-9 col-xs-8">
+                <h1 class="font-white"> X : SUA COR DO DIA</h1>
+            </div>
+            <div class="col-md-offset-2 col-xs-offset-4">
+                <img class="clight-logo img-responsive" src="{% static 'app/imagens/logo-clight-branco.png' %}">
+            </div>
+    </div> <!-- row -->
         <div class="intro">
             <h1>ROSA</h1>
         </div>
-    </body>
-
-</html>
+</body>
+{% endblock %}

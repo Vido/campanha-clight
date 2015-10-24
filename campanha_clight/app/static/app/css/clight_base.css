@@ -16,7 +16,23 @@ h1{
     margin-left: 50px;
     font-size: 20pt;
 }
+/* section bg pink */
 
+.font-white{
+    color: #fff;
+    margin-left: -20px;
+}
+.bg-pink
+{
+    background-color: #fc0fc0;
+}
+
+.img-voltar{
+    height: 15px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+/* end section bg pink */
 .div-cor-header{
     margin-top: 20px;
     display: table-cell;
