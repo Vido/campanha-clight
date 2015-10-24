@@ -17,8 +17,16 @@ h1{
     font-size: 20pt;
 }
 
+
 /* section pagina compartilhe */
 
+.font-verlag-bold{
+    font-family: VerlagLight;
+}
+
+.facebook-button h5{
+    margin-left: -45px;
+}
 .comp-row{
     margin-top: 55px;
 }
@@ -28,10 +36,16 @@ h1{
 }
 
 .facebook-logo{
-    height: 35px;
-    margin: 0px;
+    width: 35px;
+    margin-left: -15px;
 }
 
+.row-facebook-button{
+    margin-top: 40px;
+    margin-left: 5px;
+    padding: 8px;
+    outline: 1px solid #fff;
+}
 
 .title-side{
     margin-top: 120px;
