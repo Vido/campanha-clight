@@ -33,6 +33,7 @@ def __getType(palavra):
         mpalavra = "LIVRE"
         cor = "ROSA"
         mclass = "livre"
+        image = "app/imagens/produto-1.png"
 
     elif palavra == "poderosa":
         mpalavra = "PODEROSA"

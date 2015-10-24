@@ -10,6 +10,7 @@ src: url('../fonts/verlagbold.otf') format("opentype");
 font-family: VerlagBook;
 src: url('../fonts/verlagbook.otf') format("opentype");
 }
+
 h1{
     font-family: VerlagLight;
     color: #666666;
@@ -17,6 +18,25 @@ h1{
     font-size: 20pt;
 }
 
+h2{
+    font-family: VerlagBook;
+    color: #ffffff;
+    font-size: 80pt;
+}
+
+h3{
+    font-family: VerlagBook;
+    color: #666666;
+    margin-left: 50px;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+/* section pagina compartilhe */
+
+.comp-row{
+    font-size: 20pt;
+}
 
 /* section pagina compartilhe */
 
@@ -139,14 +159,8 @@ h1{
 
 }
 
-.produto img{
-    height:400px;
-}
-
-h2 {
-    font-family: VerlagBook;
-    color: #ffffff;
-    font-size: 80pt;
+.produto {
+    height:360px;
 }
 
 html{
