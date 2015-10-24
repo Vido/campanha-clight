@@ -126,21 +126,6 @@ html{
     height:80%;
 }
 
-.fill{
-    height:100%;
-}
-
-.vertical-center{
-    display: flex;
-    align-items: center;
-/*
-    flex-direction: row;
-    float:none;
-    display:inline-block;
-    vertical-align:middle;
-*/
-}
-
 .texto{
     font-family: VerlagLight;
     color: #FFF;
