@@ -1,16 +1,25 @@
 {% extends 'app/base.html' %}
+
+{% block meta_tags %}
+    <meta property="og:url" content="http://localhost:8000/compartilhe/{{ palavra | lower }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{slogan}}">
+    <meta property="og:description" content="Promoção Clight">
+    <meta property="og:image" content="http://localhost:8000/static/app/imagens/minha-cor-{{cor | lower}}.png">
+{% endblock %}
+
 {% load static from staticfiles %}
 {% block body_content %}
 <body class='bg-{{class}}'>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1 col-xs-1">
-                <a href="{% url 'index' %}">
+                <a href="{% url 'cor' class %}">
                     <img class="img-voltar img-responsive" src="{% static 'app/imagens/voltar.png' %}">
                 </a>
             </div>
            <div class="col-md-9 col-xs-8">
-                <h1 class="texto-header font-white"> {{ palavra }}: SUA COR DO DIA</h1>
+                <h1 class="texto-header font-verlag-bold font-white"> {{ palavra }}: SUA COR DO DIA</h1>
             </div>
             <div class="col-md-offset-2 col-xs-offset-4">
                 <img class="clight-logo img-responsive" src="{% static 'app/imagens/logo-clight-branco.png' %}">
@@ -22,17 +31,16 @@
                     <h2 class="text-right">{{ cor }}</h2>
                 </div>
                 <div class="col-md-6 text-left fill font-white comp-font">
-                    <p>De rosa, você está feliz. E mais do que isso, está também romântica.</p>
-                    <p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.
-                    <p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p>
-                    <p>Até porque o amor deixa todo mundo feliz.</p>
+                    {{ texto | safe }}
                     <div class="row row-facebook-button">
-                        <div class="col-md-2">
-                            <img class="facebook-logo img-responsive" src="{% static 'app/imagens/facebook-logo.png' %}">
-                        </div>
-                        <div class="col-md-7 facebook-button">
-                            <h5 class="font-white font-verlag-bold">QUER POSTAR SUA COR NO FACEBOOK?</h5>
-                        </div>
+                        <a class="btn facebook-button" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/compartilhe/{{ palavra | lower }}">
+                            <div class="col-md-2">
+                                <img class="facebook-logo img-responsive" src="{% static 'app/imagens/facebook-logo.png' %}">
+                            </div>
+                            <div class="col-md-7 text-facebook-button">
+                                <h5 class="font-white font-verlag-bold">QUER POSTAR SUA COR NO FACEBOOK?</h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

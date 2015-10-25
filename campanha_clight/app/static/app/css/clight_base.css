@@ -34,18 +34,38 @@ h3{
 
 /* section pagina compartilhe */
 
-.comp-row{
-    font-size: 20pt;
+.comp-row h2{
+    font-size: 7vw;
 }
 
 /* section pagina compartilhe */
 
 .font-verlag-bold{
+    font-family: VerlagBold;
+}
+.font-verlag-light{
     font-family: VerlagLight;
 }
+.font-verlag-book{
+    font-family: VerlagBook;
+}
 
-.facebook-button h5{
-    margin-left: -45px;
+.header-publish h1{
+    font-size: 15pt;
+    margin-bottom: -16px;
+
+}
+
+.text-footer h1{
+    font-size: 25pt;
+}
+.header-publish h3{
+    font-size: 20pt;
+}
+
+.text-facebook-button h5{
+    margin-left: -35px;
+    margin-top: 5px;
 }
 .comp-row{
     margin-top: 55px;
@@ -63,12 +83,21 @@ h3{
 .row-facebook-button{
     margin-top: 40px;
     margin-left: 5px;
-    padding: 8px;
+}
+
+.facebook-button{
     outline: 1px solid #fff;
+    padding: 7px;
+    height: 40px;
+}
+.facebook-button:hover{
+    outline: 2px solid #fff;
+    padding: 7px;
+    height: 40px;
 }
 
 .title-side{
-    margin-top: 120px;
+    margin-top: 150px;
     margin-right: 20px;
 }
 /* end section pagina compartilhe */
@@ -86,7 +115,8 @@ h3{
     color: #fff;
 }
 .texto-header{
-    margin-left: -20px;
+    margin-left: -15px;
+    font-size: 16pt;
 }
 .bg-romantica
 {
@@ -114,28 +144,28 @@ h3{
 }
 .bg-feliz
 {
-    background-color: #00FF66;
+    background-color: #33cccc;
 }
 .bg-inspiradora
 {
-    background-color: #00FF66;
+    background-color: #33cccc;
 }
 .bg-otimista
 {
-    background-color: #00FF66;
+    background-color: #33cccc;
 }
 
 .bg-sincera
 {
-    background-color: #00BBFF;
+    background-color: #3333ff;
 }
 .bg-tranquila
 {
-    background-color: #00BBFF;
+    background-color: #3333ff;
 }
 .bg-confiante
 {
-    background-color: #00BBFF;
+    background-color: #3333ff;
 }
 
 .img-voltar{
@@ -231,7 +261,7 @@ a{
 }
 
 .pink:hover{
-    background-color: #FF00EE;
+    background-color: #fc0fc0;
     color: #FFFFFF;
 }
 
@@ -241,11 +271,11 @@ a{
 }
 
 .green:hover{
-    background-color: #00FF66;
+    background-color: #33cccc;
     color: #FFFFFF;
 }
 
 .blue:hover{
-    background-color: #00BBFF;
+    background-color: #3333ff;
     color: #FFFFFF;
 }
