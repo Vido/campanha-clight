@@ -118,54 +118,54 @@ h3{
     margin-left: -15px;
     font-size: 16pt;
 }
-.bg-romantica
+.bg-impulsiva
 {
-    background-color: #fc0fc0;
+    background-color: #d9050c;
 }
-.bg-livre
+.bg-linda
 {
-    background-color: #fc0fc0;
+    background-color: #fe2bac;
 }
-.bg-poderosa
+.bg-extrovertida
 {
-    background-color: #fc0fc0;
+    background-color: #ffef16;
 }
-.bg-descolada
+.bg-vaidosa
 {
-    background-color: #FF9900;
-}
-.bg-forte
-{
-    background-color: #FF9900;
-}
-.bg-alegre
-{
-    background-color: #FF9900;
-}
-.bg-feliz
-{
-    background-color: #33cccc;
-}
-.bg-inspiradora
-{
-    background-color: #33cccc;
-}
-.bg-otimista
-{
-    background-color: #33cccc;
-}
-
-.bg-sincera
-{
-    background-color: #3333ff;
-}
-.bg-tranquila
-{
-    background-color: #3333ff;
+    background-color: #c692ca;
 }
 .bg-confiante
 {
-    background-color: #3333ff;
+    background-color: #701231;
+}
+.bg-fitness
+{
+    background-color: #00cb51;
+}
+.bg-livre
+{
+    background-color: #22d5d2;
+}
+.bg-misteriosa
+{
+    background-color: #8900cd;
+}
+.bg-otimista
+{
+    background-color: #ff8f00;
+}
+
+.bg-poderosa
+{
+    background-color: #34377F;
+}
+.bg-zen
+{
+    background-color: #0b2dda;
+}
+.bg-apaixonada
+{
+    background-color: #c692ca;
 }
 
 .img-voltar{
@@ -259,7 +259,7 @@ a{
     color: #666666;
     /* border-radius: 10px; */
 }
-
+/*
 .pink:hover{
     background-color: #fc0fc0;
     color: #FFFFFF;
@@ -277,5 +277,67 @@ a{
 
 .blue:hover{
     background-color: #3333ff;
+    color: #FFFFFF;
+}*/
+
+.impulsiva:hover
+{
+    background-color: #d9050c;
+    color: #FFFFFF;
+}
+.linda:hover
+{
+    background-color: #fe2bac;
+    color: #FFFFFF;
+}
+.extrovertida:hover
+{
+    background-color: #ffef16;
+    color: #FFFFFF;
+}
+.vaidosa:hover
+{
+    background-color: #c692ca;
+    color: #FFFFFF;
+}
+.confiante:hover
+{
+    background-color: #701231;
+    color: #FFFFFF;
+}
+.fitness:hover
+{
+    background-color: #00cb51;
+    color: #FFFFFF;
+}
+.livre:hover
+{
+    background-color: #22d5d2;
+    color: #FFFFFF;
+}
+.misteriosa:hover
+{
+    background-color: #8900cd;
+    color: #FFFFFF;
+}
+.otimista:hover
+{
+    background-color: #ff8f00;
+    color: #FFFFFF;
+}
+
+.poderosa:hover
+{
+    background-color: #34377F;
+    color: #FFFFFF;
+}
+.zen:hover
+{
+    background-color: #0b2dda;
+    color: #FFFFFF;
+}
+.apaixonada:hover
+{
+    background-color: #c692ca;
     color: #FFFFFF;
 }

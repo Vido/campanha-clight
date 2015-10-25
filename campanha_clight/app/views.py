@@ -23,75 +23,75 @@ def sabor(request, palavra):
 
 def __getType(palavra):
 
-    if palavra == "romantica":
-        mpalavra = "ROMÂNTICA"
-        cor = "ROSA"
-        mclass = "romantica"
+    if palavra == "impulsiva":
+        mpalavra = "IMPULSIVA"
+        cor = "VERMELHO"
+        mclass = "impulsiva"
         image = "app/imagens/produto-uva.png"
         produto = "UVA"
         slogan = "O LADO ROMÂNTICO DE CLIGHT."
         texto= "<p>De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
 
+    elif palavra == "linda":
+        mpalavra = "LINDA"
+        cor = "ROSA"
+        mclass = "linda"
+        image = "app/imagens/produto-uva.png"
+        produto = "UVA"
+        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
+
+    elif palavra == "extrovertida":
+        mpalavra = "EXTROVERTIDA"
+        cor = "AMARELO"
+        mclass = "extrovertida"
+        image = "app/imagens/produto-uva.png"
+        produto = "UVA"
+        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
+
+
+    elif palavra == "vaidosa":
+        mpalavra = "VAIDOSA"
+        cor = "PINK"
+        mclass = "vaidosa"
+        image = "app/imagens/produto-tangerina.png"
+        produto = "TANGERINA"
+        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
+
+    elif palavra == "confiante":
+        mpalavra = "CONFIANTE"
+        cor = "BORDÔ"
+        mclass = "confiante"
+        image = "app/imagens/produto-tangerina.png"
+        produto = "TANGERINA"
+        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
+
+    elif palavra == "fitness":
+        mpalavra = "FITNESS"
+        cor = "VERDE"
+        mclass = "fitness"
+        image = "app/imagens/produto-tangerina.png"
+        produto = "TANGERINA"
+        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
+
     elif palavra == "livre":
         mpalavra = "LIVRE"
-        cor = "ROSA"
-        mclass = "livre"
-        image = "app/imagens/produto-uva.png"
-        produto = "UVA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
-        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
-
-    elif palavra == "poderosa":
-        mpalavra = "PODEROSA"
-        cor = "ROSA"
-        mclass = "poderosa"
-        image = "app/imagens/produto-uva.png"
-        produto = "UVA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
-        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
-
-
-    elif palavra == "descolada":
-        mpalavra = "DESCOLADA"
-        cor = "LARANJA"
-        mclass = "descolada"
-        image = "app/imagens/produto-tangerina.png"
-        produto = "TANGERINA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
-        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
-
-    elif palavra == "forte":
-        mpalavra = "FORTE"
-        cor = "LARANJA"
-        mclass = "forte"
-        image = "app/imagens/produto-tangerina.png"
-        produto = "TANGERINA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
-        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
-
-    elif palavra == "alegre":
-        mpalavra = "ALEGRE"
-        cor = "LARANJA"
-        mclass = "alegre"
-        image = "app/imagens/produto-tangerina.png"
-        produto = "TANGERINA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
-        texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
-
-    elif palavra == "feliz":
-        mpalavra = "FELIZ"
         cor = "TURQUESA"
-        mclass = "feliz"
+        mclass = "livre"
         image = "app/imagens/produto-morango.png"
         produto = "MORANGO"
         slogan = "O LADO ROMÂNTICO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
-    elif palavra == "inspiradora":
-        mpalavra = "INSPIRADORA"
-        cor = "TURQUESA"
-        mclass = "inspiradora"
+    elif palavra == "misteriosa":
+        mpalavra = "MISTERIOSA"
+        cor = "VIOLETA"
+        mclass = "misteriosa"
         image = "app/imagens/produto-morango.png"
         produto = "MORANGO"
         slogan = "O LADO ROMÂNTICO DE CLIGHT."
@@ -99,35 +99,35 @@ def __getType(palavra):
 
     elif palavra == "otimista":
         mpalavra = "OTIMISTA"
-        cor = "TURQUESA"
+        cor = "LARANJA"
         mclass = "otimista"
         image = "app/imagens/produto-morango.png"
         produto = "MORANGO"
         slogan = "O LADO ROMÂNTICO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
-    elif palavra == "sincera":
-        mpalavra = "SINCERA"
-        cor = "AZUL"
-        mclass = "sincera"
+    elif palavra == "poderosa":
+        mpalavra = "PODEROSA"
+        cor = "AZUL MARINHO"
+        mclass = "poderosa"
         image = "app/imagens/produto-maracuja.png"
         produto = "MARACUJÁ"
         slogan = "O LADO ROMÂNTICO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
-    elif palavra == "tranquila":
-        mpalavra = "TRANQUILA"
+    elif palavra == "zen":
+        mpalavra = "ZEN"
         cor = "AZUL"
-        mclass = "tranquila"
+        mclass = "zen"
         image = "app/imagens/produto-maracuja.png"
         produto = "MARACUJÁ"
         slogan = "O LADO ROMÂNTICO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
-    elif palavra == "confiante":
-        mpalavra = "CONFIANTE"
-        cor = "AZUL"
-        mclass = "confiante"
+    elif palavra == "apaixonada":
+        mpalavra = "APAIXONADA"
+        cor = "LILÁS"
+        mclass = "apaixonada"
         image = "app/imagens/produto-maracuja.png"
         produto = "MARACUJÁ"
         slogan = "O LADO ROMÂNTICO DE CLIGHT."
