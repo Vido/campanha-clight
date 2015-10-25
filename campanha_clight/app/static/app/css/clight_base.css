@@ -259,6 +259,14 @@ a{
     color: #666666;
 }
 
+.radial-white {
+    background-image: -webkit-gradient(radial, center center, 50, center center, 90, from(#FFFFFF), to(#DDDDDD)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #FFFFFF 80%, #DDDDDD 90%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #FFFFFF 50%, #DDDDDD 90%);
+    background-image: radial-gradient(center center, circle closest-corner, #FFFFFF 50%, #DDDDDD 90%);
+}
+
+
 .radial-grau {
     background-image: -webkit-gradient(radial, center center, 10, center center, 70, from(#EEEEEE), to(#D3D3D3)); /* for older webkit */
     background-image: -webkit-radial-gradient(center center, circle closest-corner, #EEEEEE 10%, #D3D3D3 70%);
