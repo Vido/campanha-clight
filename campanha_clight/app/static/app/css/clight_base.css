@@ -121,52 +121,109 @@ h3{
 }
 .bg-impulsiva
 {
-    background-color: #d9050c;
+    /* #d9050c */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#d9050c), to(#993333)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #d9050c 80%, #993333 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #d9050c 80%, #993333 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #d9050c 80%, #993333 100%);
 }
+
 .bg-linda
 {
-    background-color: #fe2bac;
+    /* #fe2bac; */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#fe2bac), to(#CC4477)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #fe2bac 80%, #CC4477 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #fe2bac 80%, #CC4477 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #fe2bac 80%, #CC4477 100%);
 }
+
 .bg-extrovertida
 {
-    background-color: #ffef16;
+    /*  #ffef16 */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#ffef16), to(#CCBB00)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB00 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB00 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB00 100%);
 }
 .bg-vaidosa
 {
-    background-color: #c692ca;
+    /* #c692ca */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#c692ca), to(#997799)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #c692ca 80%, #997799 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #c692ca 80%, #997799 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #c692ca 80%, #997799 100%);
 }
+
 .bg-confiante
 {
-    background-color: #701231;
+    /* #701231 */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#701231), to(#550010)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #701231 80%, #550010 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #701231 80%, #550010 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #701231 80%, #550010 100%);
 }
+
 .bg-fitness
 {
-    background-color: #00cb51;
+    /* #00cb51 */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#00cb51), to(#009933)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
 }
+
 .bg-livre
 {
-    background-color: #22d5d2;
+    /* #22d5d2 */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#00cb51), to(#009933)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
 }
+
 .bg-misteriosa
 {
-    background-color: #8900cd;
+    /* #8900cd */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#8900cd), to(#440099)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #8900cd 80%, #440099 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #8900cd 80%, #440099 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #8900cd 80%, #440099 100%);
 }
+
 .bg-otimista
 {
-    background-color: #ff8f00;
+    /* #ff8f00  */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#ff8f00), to(#CC6600)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #ff8f00 80%, #CC6600 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #ff8f00 80%, #CC6600 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #ff8f00 80%, #CC6600 100%);
 }
 
 .bg-poderosa
 {
-    background-color: #34377F;
+    /* #34377F  */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#34377F), to(#111166)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #34377F 80%, #111166 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #34377F 80%, #111166 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #34377F 80%, #111166 100%);
 }
+
 .bg-zen
 {
-    background-color: #0b2dda;
+    /* #0b2dda */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#0b2dda), to(#1111AA)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #0b2dda 80%, #1111AA 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #0b2dda 80%, #1111AA 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #0b2dda 80%, #1111AA 100%);
 }
+
 .bg-apaixonada
 {
-    background-color: #c692ca;
+    /* #c692ca */
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#c692ca), to(#996699)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #c692ca 80%, #996699 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #c692ca 80%, #996699 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #c692ca 80%, #996699 100%);
 }
 
 .img-voltar{
@@ -262,7 +319,7 @@ a{
 
 .radial-white {
     background-image: -webkit-gradient(radial, center center, 50, center center, 90, from(#FFFFFF), to(#DDDDDD)); /* for older webkit */
-    background-image: -webkit-radial-gradient(center center, circle closest-corner, #FFFFFF 80%, #DDDDDD 90%);
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #FFFFFF 50%, #DDDDDD 90%);
     background-image: -moz-radial-gradient(center center, circle closest-corner, #FFFFFF 50%, #DDDDDD 90%);
     background-image: radial-gradient(center center, circle closest-corner, #FFFFFF 50%, #DDDDDD 90%);
 }
