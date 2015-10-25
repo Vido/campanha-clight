@@ -29,7 +29,7 @@ def __getType(palavra):
         mclass = "impulsiva"
         image = "app/imagens/produto-uva.png"
         produto = "UVA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO IMPULSIVO DE CLIGHT."
         texto= "<p>De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
 
@@ -39,7 +39,7 @@ def __getType(palavra):
         mclass = "linda"
         image = "app/imagens/produto-uva.png"
         produto = "UVA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO LINDO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "extrovertida":
@@ -48,7 +48,7 @@ def __getType(palavra):
         mclass = "extrovertida"
         image = "app/imagens/produto-uva.png"
         produto = "UVA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO EXTROVERTIDO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
 
@@ -58,7 +58,7 @@ def __getType(palavra):
         mclass = "vaidosa"
         image = "app/imagens/produto-tangerina.png"
         produto = "TANGERINA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO VAIDOSO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "confiante":
@@ -67,7 +67,7 @@ def __getType(palavra):
         mclass = "confiante"
         image = "app/imagens/produto-tangerina.png"
         produto = "TANGERINA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO CONFIANTE DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "fitness":
@@ -76,7 +76,7 @@ def __getType(palavra):
         mclass = "fitness"
         image = "app/imagens/produto-tangerina.png"
         produto = "TANGERINA"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO FITNESS DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "livre":
@@ -85,7 +85,7 @@ def __getType(palavra):
         mclass = "livre"
         image = "app/imagens/produto-morango.png"
         produto = "MORANGO"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO LIVRE DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "misteriosa":
@@ -94,7 +94,7 @@ def __getType(palavra):
         mclass = "misteriosa"
         image = "app/imagens/produto-morango.png"
         produto = "MORANGO"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO MISTERIOSO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "otimista":
@@ -103,7 +103,7 @@ def __getType(palavra):
         mclass = "otimista"
         image = "app/imagens/produto-morango.png"
         produto = "MORANGO"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO OTIMISTA DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "poderosa":
@@ -112,7 +112,7 @@ def __getType(palavra):
         mclass = "poderosa"
         image = "app/imagens/produto-maracuja.png"
         produto = "MARACUJÁ"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO PODEROSO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "zen":
@@ -121,7 +121,7 @@ def __getType(palavra):
         mclass = "zen"
         image = "app/imagens/produto-maracuja.png"
         produto = "MARACUJÁ"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO ZEN DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     elif palavra == "apaixonada":
@@ -130,7 +130,7 @@ def __getType(palavra):
         mclass = "apaixonada"
         image = "app/imagens/produto-maracuja.png"
         produto = "MARACUJÁ"
-        slogan = "O LADO ROMÂNTICO DE CLIGHT."
+        slogan = "O LADO APAIXONADO DE CLIGHT."
         texto= "<p>2De rosa, você está feliz. E mais do que isso, está também romântica.</p><p>Hoje você deve explorar esse seu lado para deixar a vida mais leve, fazendo só o que vai arrancar lindos sorrisos. E, se tiver alguém, aproveite para viver momentos à dois, com tudo que você tem direito.<p>Curta esse momento com toda a leveza. Espalhe amor por onde for.</p><p>Até porque o amor deixa todo mundo feliz.</p>"
 
     else:

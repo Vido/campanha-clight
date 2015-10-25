@@ -256,89 +256,95 @@ a{
     */
     /* padding-bottom: 20%; */
     line-height: 169px;
-    background-color: #EEEEEE;
+
     color: #666666;
-    /* border-radius: 10px; */
-}
-/*
-.pink:hover{
-    background-color: #fc0fc0;
-    color: #FFFFFF;
 }
 
-.orange:hover{
-    background-color: #FF9900;
-    color: #FFFFFF;
+.radial-white {
+    background-image: -webkit-gradient(radial, center center, 50, center center, 90, from(#FFFFFF), to(#DDDDDD)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #FFFFFF 80%, #DDDDDD 90%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #FFFFFF 50%, #DDDDDD 90%);
+    background-image: radial-gradient(center center, circle closest-corner, #FFFFFF 50%, #DDDDDD 90%);
 }
 
-.green:hover{
-    background-color: #33cccc;
-    color: #FFFFFF;
-}
 
-.blue:hover{
-    background-color: #3333ff;
-    color: #FFFFFF;
-}*/
+.radial-grau {
+    background-image: -webkit-gradient(radial, center center, 10, center center, 70, from(#EEEEEE), to(#D3D3D3)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #EEEEEE 10%, #D3D3D3 70%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #EEEEEE 10%, #D3D3D3 70%);
+    background-image: radial-gradient(center center, circle closest-corner, #EEEEEE 10%, #D3D3D3 70%);
+}
 
 .impulsiva:hover
 {
+    background-image:none;
     background-color: #d9050c;
     color: #FFFFFF;
 }
 .linda:hover
 {
+    background-image:none;
     background-color: #fe2bac;
     color: #FFFFFF;
 }
 .extrovertida:hover
 {
+    background-image:none;
     background-color: #ffef16;
     color: #FFFFFF;
 }
 .vaidosa:hover
 {
+    background-image:none;
     background-color: #c692ca;
     color: #FFFFFF;
 }
 .confiante:hover
 {
+    background-image:none;
     background-color: #701231;
     color: #FFFFFF;
 }
 .fitness:hover
 {
+    background-image:none;
     background-color: #00cb51;
     color: #FFFFFF;
 }
 .livre:hover
 {
+    background-image:none;
     background-color: #22d5d2;
     color: #FFFFFF;
 }
 .misteriosa:hover
 {
+    background-image:none;
     background-color: #8900cd;
     color: #FFFFFF;
 }
 .otimista:hover
 {
+    background-image:none;
     background-color: #ff8f00;
     color: #FFFFFF;
 }
 
 .poderosa:hover
 {
+    background-image:none;
     background-color: #34377F;
     color: #FFFFFF;
 }
 .zen:hover
 {
+    background-image:none;
     background-color: #0b2dda;
     color: #FFFFFF;
 }
 .apaixonada:hover
 {
+    background-image:none;
     background-color: #c692ca;
     color: #FFFFFF;
 }
