@@ -33,7 +33,7 @@
                 <div class="col-md-6 text-left fill font-white comp-font">
                     {{ texto | safe }}
                     <div class="row row-facebook-button">
-                        <a class="btn facebook-button" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/compartilhe/{{ palavra | lower }}">
+                        <a class="btn facebook-button" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/compartilhe/{{ palavra | lower }}">
                             <div class="col-md-2">
                                 <img class="facebook-logo img-responsive" src="{% static 'app/imagens/facebook-logo.png' %}">
                             </div>
