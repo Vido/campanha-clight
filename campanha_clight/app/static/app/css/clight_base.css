@@ -122,10 +122,10 @@ h3{
 .bg-impulsiva
 {
     /* #d9050c */
-    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#d9050c), to(#993333)); /* for older webkit */
-    background-image: -webkit-radial-gradient(center center, circle closest-corner, #d9050c 80%, #993333 100%);
-    background-image: -moz-radial-gradient(center center, circle closest-corner, #d9050c 80%, #993333 100%);
-    background-image: radial-gradient(center center, circle closest-corner, #d9050c 80%, #993333 100%);
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#d9050c), to(#AA0000)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #d9050c 80%, #AA0000 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #d9050c 80%, #AA0000 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #d9050c 80%, #AA0000 100%);
 }
 
 .bg-linda
@@ -140,10 +140,10 @@ h3{
 .bg-extrovertida
 {
     /*  #ffef16 */
-    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#ffef16), to(#CCBB00)); /* for older webkit */
-    background-image: -webkit-radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB00 100%);
-    background-image: -moz-radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB00 100%);
-    background-image: radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB00 100%);
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#ffef16), to(#CCBB11)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB11 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB11 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #ffef16 80%, #CCBB11 100%);
 }
 .bg-vaidosa
 {
@@ -175,10 +175,10 @@ h3{
 .bg-livre
 {
     /* #22d5d2 */
-    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#00cb51), to(#009933)); /* for older webkit */
-    background-image: -webkit-radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
-    background-image: -moz-radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
-    background-image: radial-gradient(center center, circle closest-corner, #00cb51 80%, #009933 100%);
+    background-image: -webkit-gradient(radial, center center, 80, center center, 100, from(#22d5d2), to(#10AAAA)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #22d5d2 80%, #10AAAA 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #22d5d2 80%, #10AAAA 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #22d5d2 80%, #10AAAA 100%);
 }
 
 .bg-misteriosa
@@ -334,74 +334,119 @@ a{
 
 .impulsiva:hover
 {
-    background-image:none;
-    background-color: #d9050c;
+    /* #d9050c */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#d9050c), to(#AA0000)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #d9050c 20%, #AA0000 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #d9050c 20%, #AA0000 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #d9050c 20%, #AA0000 100%);
     color: #FFFFFF;
 }
+
 .linda:hover
 {
-    background-image:none;
-    background-color: #fe2bac;
+    /* #fe2bac */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#fe2bac), to(#CC4477)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #fe2bac 20%, #CC4477 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #fe2bac 20%, #CC4477 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #fe2bac 20%, #CC4477 100%);
     color: #FFFFFF;
 }
+
 .extrovertida:hover
 {
-    background-image:none;
-    background-color: #ffef16;
+    /* #ffef16 */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#ffef16), to(#CCBB11)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #ffef16 20%, #CCBB11 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #ffef16 20%, #CCBB11 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #ffef16 20%, #CCBB11 100%);
     color: #FFFFFF;
 }
+
 .vaidosa:hover
 {
-    background-image:none;
-    background-color: #c692ca;
+    /* #c692ca */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#c692ca), to(#997799)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #c692ca 20%, #997799 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #c692ca 20%, #997799 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #c692ca 20%, #997799 100%);
     color: #FFFFFF;
 }
+
 .confiante:hover
 {
-    background-image:none;
-    background-color: #701231;
+    /* #701231 */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#701231), to(#550010)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #701231 20%, #550010 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #701231 20%, #550010 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #701231 20%, #550010 100%);
     color: #FFFFFF;
 }
+
 .fitness:hover
 {
-    background-image:none;
-    background-color: #00cb51;
+    /* #00cb51 */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#00cb51), to(#009933)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #00cb51 20%, #009933 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #00cb51 20%, #009933 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #00cb51 20%, #009933 100%);
     color: #FFFFFF;
 }
+
 .livre:hover
 {
-    background-image:none;
-    background-color: #22d5d2;
+    /* #22d5d2 */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#22d5d2), to(#10AAAA)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #22d5d2 20%, #10AAAA 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #22d5d2 20%, #10AAAA 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #22d5d2 20%, #10AAAA 100%);
     color: #FFFFFF;
 }
+
 .misteriosa:hover
 {
-    background-image:none;
-    background-color: #8900cd;
+    /* #8900cd */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#8900cd), to(#440099)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #8900cd 20%, #440099 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #8900cd 20%, #440099 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #8900cd 20%, #440099 100%);
     color: #FFFFFF;
 }
+
 .otimista:hover
 {
-    background-image:none;
-    background-color: #ff8f00;
+    /* #ff8f00; */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#ff8f00), to(#CC6600)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #ff8f00 20%, #CC6600 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #ff8f00 20%, #CC6600 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #ff8f00 20%, #CC6600 100%);
     color: #FFFFFF;
 }
 
 .poderosa:hover
 {
-    background-image:none;
-    background-color: #34377F;
+    /* #34377F; */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#34377F), to(#111166)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #34377F 20%, #111166 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #34377F 20%, #111166 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #34377F 20%, #111166 100%);
     color: #FFFFFF;
 }
+
 .zen:hover
 {
-    background-image:none;
-    background-color: #0b2dda;
+    /* #0b2dda; */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#0b2dda), to(#1111AA)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #0b2dda 20%, #1111AA 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #0b2dda 20%, #1111AA 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #0b2dda 20%, #1111AA 100%);
     color: #FFFFFF;
 }
 .apaixonada:hover
 {
-    background-image:none;
-    background-color: #c692ca;
+    /* #c692ca; */
+    background-image: -webkit-gradient(radial, center center, 20, center center, 100, from(#c692ca), to(#996699)); /* for older webkit */
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #c692ca 20%, #996699 100%);
+    background-image: -moz-radial-gradient(center center, circle closest-corner, #c692ca 20%, #996699 100%);
+    background-image: radial-gradient(center center, circle closest-corner, #c692ca 20%, #996699 100%);
     color: #FFFFFF;
 }
