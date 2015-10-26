@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /home/scholarisadmin/public_html/clight/campanha-clight/campanha_clight/campanha_clight/wsgi.cgi/$1 [L]
+AddHandler fastcgi-script .fcgi
