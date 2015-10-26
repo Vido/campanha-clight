@@ -26,6 +26,7 @@ def __getType(palavra):
     if palavra == "impulsiva":
         mpalavra = "IMPULSIVA"
         cor = "VERMELHO"
+        cor_image = "vermelho"
         mclass = "impulsiva"
         image = "app/imagens/produto-morango.png"
         produto = "MORANGO"
@@ -36,6 +37,7 @@ def __getType(palavra):
     elif palavra == "linda":
         mpalavra = "LINDA"
         cor = "ROSA"
+        cor_image = "rosa"
         mclass = "linda"
         image = "app/imagens/produto-manga.png"
         produto = "MANGA"
@@ -45,6 +47,7 @@ def __getType(palavra):
     elif palavra == "extrovertida":
         mpalavra = "EXTROVERTIDA"
         cor = "AMARELO"
+        cor_image = "amarelo"
         mclass = "extrovertida"
         image = "app/imagens/produto-abacaxigengibre.png"
         produto = "ABACAXI COM GENGIBRE"
@@ -55,6 +58,7 @@ def __getType(palavra):
     elif palavra == "vaidosa":
         mpalavra = "VAIDOSA"
         cor = "PINK"
+        cor_image = "pink"
         mclass = "vaidosa"
         image = "app/imagens/produto-tealimao.png"
         produto = "TEA LIMÃO"
@@ -64,6 +68,7 @@ def __getType(palavra):
     elif palavra == "confiante":
         mpalavra = "CONFIANTE"
         cor = "BORDÔ"
+        cor_image = "bordo"
         mclass = "confiante"
         image = "app/imagens/produto-tangerina.png"
         produto = "TANGERINA"
@@ -73,6 +78,7 @@ def __getType(palavra):
     elif palavra == "fitness":
         mpalavra = "SAUDÁVEL"
         cor = "VERDE"
+        cor_image = "verde"
         mclass = "fitness"
         image = "app/imagens/produto-tangerina.png"
         produto = "LIMA LIMÃO"
@@ -82,6 +88,7 @@ def __getType(palavra):
     elif palavra == "livre":
         mpalavra = "LIVRE"
         cor = "TURQUESA"
+        cor_image = "turquesa"
         mclass = "livre"
         image = "app/imagens/produto-abacaxihortela.png"
         produto = "ABACAXI COM HORTELÃ"
@@ -91,6 +98,7 @@ def __getType(palavra):
     elif palavra == "misteriosa":
         mpalavra = "MISTERIOSA"
         cor = "VIOLETA"
+        cor_image = "violeta"
         mclass = "misteriosa"
         image = "app/imagens/produto-uva.png"
         produto = "UVA"
@@ -100,6 +108,7 @@ def __getType(palavra):
     elif palavra == "otimista":
         mpalavra = "OTIMISTA"
         cor = "LARANJA"
+        cor_image = "laranja"
         mclass = "otimista"
         image = "app/imagens/produto-laranja.png"
         produto = "LARANJA"
@@ -109,6 +118,7 @@ def __getType(palavra):
     elif palavra == "poderosa":
         mpalavra = "PODEROSA"
         cor = "AZUL MARINHO"
+        cor_image = "marinho"
         mclass = "poderosa"
         image = "app/imagens/produto-amoraframboesa.png"
         produto = "AMORA E FRAMBOESA"
@@ -118,6 +128,7 @@ def __getType(palavra):
     elif palavra == "zen":
         mpalavra = "ZEN"
         cor = "AZUL"
+        cor_image = "azul"
         mclass = "zen"
         image = "app/imagens/produto-maracuja.png"
         produto = "MARACUJÁ"
@@ -127,6 +138,7 @@ def __getType(palavra):
     elif palavra == "apaixonada":
         mpalavra = "APAIXONADA"
         cor = "LILÁS"
+        cor_image = "lilas"
         mclass = "apaixonada"
         image = "app/imagens/produto-pessego.png"
         produto = "PÊSSEGO"
@@ -138,6 +150,7 @@ def __getType(palavra):
 
     context = {
         'cor': cor,
+        'cor_image': cor_image,
         'palavra': mpalavra,
         'class': mclass,
         'image': image,
