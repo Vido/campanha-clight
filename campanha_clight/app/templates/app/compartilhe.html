@@ -4,7 +4,7 @@
     <meta property="og:url" content="http://localhost:8000/compartilhe/{{ palavra | lower }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{slogan}}">
-    <meta property="og:description" content="Promoção Clight">
+    <meta property="og:description" content="{{texto | striptags}}">
     <meta property="og:image" content="http://localhost:8000/static/app/imagens/minha-cor-{{cor | lower}}.png">
 {% endblock %}
 
