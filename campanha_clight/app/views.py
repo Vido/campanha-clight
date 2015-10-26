@@ -75,11 +75,11 @@ def __getType(palavra):
         slogan = "O LADO CONFIANTE DE CLIGHT."
         texto= "<p>Totalmente demais! Hoje você brilha mais do que ninguém e vai adorar ser o centro das atenções.</p><p>Capriche no visual e no cuidado com os cabelos. No trabalho, as posições de liderança vão cair muito bem e projetos são discutidos com paixão!</p>"
 
-    elif palavra == "fitness":
-        mpalavra = "SAUDÁVEL"
+    elif palavra == "espontanea":
+        mpalavra = "ESPONTÂNEA"
         cor = "VERDE"
         cor_image = "verde"
-        mclass = "fitness"
+        mclass = "espontanea"
         image = "app/imagens/produto-tangerina.png"
         produto = "LIMA LIMÃO"
         slogan = "O LADO FITNESS DE CLIGHT."
