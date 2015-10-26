@@ -31,15 +31,19 @@
 
         {% block body_content %}{% endblock %}
 
-        <!-- Swiper core js
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="{% static 'app/js/swiper.min.js' %}"></script>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="{% static 'app/js/bootstrap.min.js' %}"></script>
-
+    <!-- Initialize Swiper -->
+    <script src="{% static 'app/js/swiper.min.js' %}"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true
+    });
+    </script>
     </body>
 </html>

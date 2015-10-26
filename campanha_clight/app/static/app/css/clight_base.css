@@ -12,6 +12,26 @@ font-family: VerlagBook;
 src: url('../fonts/verlagbook.otf') format("opentype");
 }
 
+/* style for swiper */
+.content-container{
+  margin-bottom: 70px;  
+}
+
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+} 
+.swiper-button-prev{
+    background-image: none;
+    top: 20px;
+    left: 20px;
+}
+
+/* end style for swiper */ 
+
 h1{
     font-family: VerlagLight;
     color: #666666;
@@ -54,11 +74,13 @@ h3{
 .header-publish h1{
     font-size: 15pt;
     margin-bottom: -16px;
-
+    margin-top: -10px;
 }
 
 .text-footer h1{
     font-size: 23pt;
+    margin-bottom: 5px;
+    padding-bottom: 50px;
 }
 .header-publish h3{
     font-size: 20pt;
