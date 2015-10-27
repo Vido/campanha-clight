@@ -10,10 +10,10 @@
 
 {% load static from staticfiles %}
 {% block body_content %}
-<body>
+<body id="body" class="bg-{{class}}">
     <!-- Swiper -->
     <div class="swiper-container  swiper-container-horizontal">
-        <div class="swiper-wrapper bg-{{class}}" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+        <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
             <div class="swiper-slide swiper-slide-active" style="width:1024px;">
                 <div class="container-fluid fill">
                     <div class="row">
@@ -51,7 +51,7 @@
                     </div> <!-- row -->
                 </div>     
             </div>
-            <div class="swiper-slide swiper-slide-next radial-white" style="width: 1024px;">
+            <div class="swiper-slide swiper-slide-next" style="width: 1024px;">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-1 col-xs-1">

@@ -13,9 +13,8 @@ src: url('../fonts/verlagbook.otf') format("opentype");
 }
 
 /* style for swiper */
-.content-container{
-  /*margin-bottom: 70px;*/  
-}
+
+
 .swiper-pagination-bullet-active{
     background: #fff;
 }
