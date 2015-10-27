@@ -53,9 +53,6 @@ h3{
 
 /* section pagina compartilhe */
 
-.comp-row h2{
-    font-size: 7vw;
-}
 
 /* section pagina compartilhe */
 
@@ -94,6 +91,12 @@ h3{
 .comp-font{
     font-family: VerlagLight;
     font-size: 23px;
+    display: none;
+}
+.comp-font-active{
+    font-family: VerlagLight;
+    font-size: 23px;
+    display: block;
 }
 
 .facebook-logo{
@@ -105,6 +108,7 @@ h3{
     margin-top: 40px;
     margin-left: 5px;
 }
+
 
 .facebook-button{
     outline: 1px solid #fff;
@@ -118,6 +122,15 @@ h3{
 }
 
 .title-side{
+    margin-top: 70px;
+    margin-right: 20px;
+    font-size: 100pt;
+    width: 100%;
+    font-family: VerlagBook;
+    color: #ffffff;
+}
+
+.title-side-backup{
     margin-top: 70px;
     margin-right: 20px;
 }

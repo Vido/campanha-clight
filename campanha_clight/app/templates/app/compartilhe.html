@@ -36,10 +36,12 @@
                 </div> <!-- row -->
                 <div class="container-fluid fill content-container">
                     <div class="row text-center comp-row fill">
-                        <div class="col-md-5 text-right vertical-bottom fill title-side">
-                            <h2 class="text-right">{{ cor }}</h2>
+                        <!--<div class="col-md-5 text-right vertical-bottom fill title-side">
+                            <h2 class="text-right">{{ cor }}</h2>-->
+                        <div id="div-title"class="col-md-5 vertical-bottom fill title-side">
+                            {{ cor }}
                         </div>
-                        <div class="col-md-6 text-left fill font-white comp-font">
+                        <div  id="div-text"class="col-md-6 text-left fill font-white comp-font">
                             {{ texto | safe }}
                             <div class="row row-facebook-button">
                                 <a id="btn-publicar" class="btn facebook-button facebook-button-next" target="_blank" onclick="javascript:showDiv();" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/compartilhe/{{ palavra | lower }}">
@@ -109,6 +111,22 @@
             h1.style.display = "block";
             swiper._slideNext();
         }
+    </script>
+    <script>
+        // Using multiple unit types within one animation.
+          /*          width: "50%",
+            'text-align': "left"*/
+         
+        $( document ).ready(function() {
+          $( "#div-title" ).animate({
+            width: "40%",
+            'text-align': "right",
+            fontSize: "52pt"
+          }, 1500, function()
+          {
+            $("#div-text").show();
+          });
+        }); 
     </script>
 {% endblock %}
 
