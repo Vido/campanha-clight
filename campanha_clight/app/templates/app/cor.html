@@ -5,9 +5,11 @@
 <meta http-equiv="refresh" content="1; url={% url 'compartilhe' class %}" />
 {% endblock %}
 
-{% block body_content %}
+{% block body_tag %}
 <body class='bg-{{class}}'>
+{% endblock %}
 
+{% block body_content %}
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1 col-xs-1">
@@ -31,5 +33,4 @@
             </div>
         </div> <!-- row -->
     </div> <!-- container-fluid -->
-</body>
 {% endblock %}

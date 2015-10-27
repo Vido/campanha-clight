@@ -1,7 +1,11 @@
 {% extends 'app/base.html' %}
 {% load static from staticfiles %}
-{% block body_content %}
+
+{% block body_tag %}
 <body class="radial-white">
+{% endblock %}
+
+{% block body_content %}
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1 col-xs-1">
@@ -39,5 +43,4 @@
             </div>
         </div> <!-- row -->
     </div> <!-- container-fluid -->
-</body>
 {% endblock %}

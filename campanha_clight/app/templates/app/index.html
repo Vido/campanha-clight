@@ -1,6 +1,10 @@
 {% extends 'app/base.html' %}
 {% load static from staticfiles %}
 
+{% block meta_tags %}
+    <link rel="stylesheet" href={% static 'app/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css' %}>
+{% endblock %}
+
 {% block body_content %}
     <body>
         <div class="container-fluid">
