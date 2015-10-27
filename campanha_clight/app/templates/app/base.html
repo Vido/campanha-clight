@@ -37,30 +37,35 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="{% static 'app/js/bootstrap.min.js' %}"></script>
-    <!-- Initialize Swiper -->
-    <script src="{% static 'app/js/swiper.min.js' %}"></script>
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true
-    });
 
-    // Add one more handler for this event
-    swiper.on('slideChangeStart', function () {
-        body = document.getElementById('body');
-        if(body.classList[0] == 'bg-{{class}}'){
 
-            body.classList.remove('bg-{{class}}');
-            body.classList.add('radial-white');
-        }
-        else{
-            body.classList.remove('radial-white');
-            body.classList.add('bg-{{class}}');   
-        }
-        
-    });
+        {% block body_scripts %}{% endblock %}
 
-    </script>
+        {% block body_swiper %}
+        <!-- Initialize Swiper -->
+        <script src="{% static 'app/js/swiper.min.js' %}"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                prevButton: '.swiper-button-prev',
+                paginationClickable: true
+            });
+
+            // Add one more handler for this event
+            swiper.on('slideChangeStart', function () {
+                body = document.getElementById('body');
+                if(body.classList[0] == 'bg-{{class}}'){
+
+                    body.classList.remove('bg-{{class}}');
+                    body.classList.add('radial-white');
+                }
+                else{
+                    body.classList.remove('radial-white');
+                    body.classList.add('bg-{{class}}');
+                }
+            });
+        </script>
+        {% endblock %}
+
     </body>
 </html>
