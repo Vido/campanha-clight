@@ -22,6 +22,12 @@ src: url('../fonts/verlagbook.otf') format("opentype");
     display: inline-block;
 }
 
+.link:hover{
+    background-color: transparent;
+    color: transparent;
+    text-decoration: none;
+}
+
 .card-grid .front, .card-grid .back {
     padding: 10px;
     text-align: center;
