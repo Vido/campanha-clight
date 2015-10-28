@@ -102,3 +102,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# TODO: Production URL
+SITE_URL = 'clight.pinewoods.com.br'
+
+try:
+    from .local_settings import *
+except ImportError as e:
+    print('[INFO] No local_settings was found.')
+    pass

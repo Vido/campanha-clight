@@ -1,10 +1,14 @@
 from django.http import Http404
 from django.shortcuts import render
 
+from campanha_clight import settings
+
 # Create your views here.
 
 def compartilhe(request, palavra):
     context = __getType(palavra)
+    context['SITE_URL'] = settings.SITE_URL
+
     return render(request,
                   'app/compartilhe.html',
                   context=context)

@@ -1,11 +1,11 @@
 {% extends 'app/base.html' %}
 
 {% block meta_tags %}
-    <meta property="og:url" content="http://localhost:8000/compartilhe/{{ palavra | lower }}">
+    <meta property="og:url" content="http://{{ SITE_URL }}/compartilhe/{{ palavra | lower }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{slogan}}">
     <meta property="og:description" content="{{texto | striptags}}">
-    <meta property="og:image" content="http://localhost:8000/static/app/imagens/minha-cor-{{cor_image}}.png">
+    <meta property="og:image" content="http://{{ SITE_URL }}/static/app/imagens/minha-cor-{{cor_image}}.png">
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="400" />
     <meta property="og:image:height" content="400" />
@@ -47,7 +47,10 @@
                         <div  id="div-text"class="col-md-6 text-left fill font-white comp-font">
                             {{ texto | safe }}
                             <div class="row row-facebook-button">
-                                <a id="btn-publicar" class="btn facebook-button facebook-button-next" target="_blank" onclick="javascript:showDiv();" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/compartilhe/{{ palavra | lower }}">
+                                <a id="btn-publicar" class="btn facebook-button
+                                    facebook-button-next" target="_blank"
+                                    onclick="javascript:showDiv();"
+                                    href="https://www.facebook.com/sharer/sharer.php?u=http://{{ SITE_URL }}/compartilhe/{{ palavra | lower }}">
                                     <div class="col-md-2">
                                         <img class="facebook-logo img-responsive" src="{% static 'app/imagens/facebook-logo.png' %}">
                                     </div>
