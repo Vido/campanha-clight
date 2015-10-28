@@ -159,6 +159,10 @@
 
             // Add one more handler for this event
             swiper.on('slideChangeStart', function () {
+
+                // TACKER
+                tracker_event('{{ cor | lower }}', '{{ produto | lower }}', 'Scroll')
+
                 body = document.getElementById('body');
                 if(body.classList[0] == 'bg-{{class}}'){
 
