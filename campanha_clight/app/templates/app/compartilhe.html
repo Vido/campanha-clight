@@ -1,7 +1,7 @@
 {% extends 'app/base.html' %}
 
 {% block meta_tags %}
-    <meta property="og:url" content="http://{{ SITE_URL }}/compartilhe/{{ palavra | lower }}">
+    <meta property="og:url" content="http://{{ SITE_URL }}/compartilhe/{{ class | lower }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{slogan}}">
     <meta property="og:description" content="{{texto | striptags}}">
@@ -50,7 +50,7 @@
                                 <a id="btn-publicar" class="btn facebook-button
                                     facebook-button-next" target="_blank"
                                     onclick="javascript:showDiv();"
-                                    href="https://www.facebook.com/sharer/sharer.php?u=http://{{ SITE_URL }}/compartilhe/{{ palavra | lower }}">
+                                    href="https://www.facebook.com/sharer/sharer.php?u=http://{{ SITE_URL }}/compartilhe/{{ class | lower }}">
                                     <div class="col-md-2">
                                         <img class="facebook-logo img-responsive" src="{% static 'app/imagens/facebook-logo.png' %}">
                                     </div>
