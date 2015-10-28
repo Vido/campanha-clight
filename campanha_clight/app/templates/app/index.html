@@ -2,7 +2,7 @@
 {% load static from staticfiles %}
 
 {% block meta_tags %}
-    
+
 {% endblock %}
 
 {% block body_content %}
@@ -142,8 +142,17 @@
                     </div>
                 </a>
                 <!-- end linha 3-->
-            </div> <!-- end grid container -->    
+            </div> <!-- end grid container -->
  </div> <!-- container-fluid -->
+{% endblock %}
+
+
+{% block body_script %}
+    <script>
+        $(function() {
+            tracker('home');
+        });
+    </script>
 {% endblock %}
 
 {% block body_swiper %}

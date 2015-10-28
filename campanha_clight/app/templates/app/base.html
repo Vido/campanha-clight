@@ -42,9 +42,35 @@
         <script src="{% static 'app/js/jquery.min.js' %}"></script>
         <script src="{% static 'app/js/bootstrap.min.js' %}"></script>
 
+        <!-- TACKER -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', '69392981-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        function tracker(strPageview){
+         _gaq.push(['_trackPageview', strPageview]);
+        }
+
+        function tracker_event(strCategory, strAction, strLabel, strValue){
+         _gaq.push(['_trackEvent', strCategory, strAction, strLabel, strValue]);
+        }
+
+        function tracker_social(strNetwork,strSocialAction,strTarget,strPagePath){
+         _gaq.push(['_trackSocial',strNetwork,strSocialAction,strTarget,strPagePath]);
+        }
+        </script>
+
         {% block body_scripts %}{% endblock %}
 
         {% block body_swiper %}{% endblock %}
-        
+
     </body>
 </html>
