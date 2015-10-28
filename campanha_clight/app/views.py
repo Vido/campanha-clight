@@ -117,7 +117,7 @@ def __getType(palavra):
         image = "app/imagens/produto-laranja.png"
         produto = "LARANJA"
         slogan = "O LADO OTIMISTA DE CLIGHT."
-        texto= "<p>Avisa a Ludmilla que É HOJE! Vai ser difícil alguém segurar seu entusiasmo e energia, mas mesmo seu jeito animado atrai muitos pretendentes.</p><p> Que tal uma balada com os amigos? As compromissadas vão adorar fazer uma viagem e explorar lugares novos com o seu amor.</p>"
+        texto= "<p>É HOJE! Vai ser difícil alguém segurar seu entusiasmo e energia, mas mesmo seu jeito animado atrai muitos pretendentes.</p><p> Que tal uma balada com os amigos? As compromissadas vão adorar fazer uma viagem e explorar lugares novos com o seu amor.</p>"
 
     elif palavra == "poderosa":
         mpalavra = "PODEROSA"
