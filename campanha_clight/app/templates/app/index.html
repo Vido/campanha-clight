@@ -17,97 +17,194 @@
                 </div>
             </div> <!-- row -->
 
-            <div class="row row-eq-height">
+            <div id="grid-containter">
                 <a href="{% url 'compartilhe' palavra="impulsiva" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center impulsiva">
+                    <div id="card-impulsiva" class="card-grid" style="perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front impulsiva-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            IMPULSIVA
+                        </div>
+                        <div class="back radial-grau impulsiva" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             IMPULSIVA
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="linda" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center linda">
+                    <div id="card-linda" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front linda-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            LINDA
+                        </div>
+                        <div class="back radial-grau linda" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             LINDA
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="extrovertida" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center extrovertida">
+                    <div id="card-extrovertida" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front extrovertida-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            EXTROVERTIDA
+                        </div>
+                        <div class="back radial-grau extrovertida" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             EXTROVERTIDA
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="vaidosa" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center vaidosa">
+                    <div id="card-vaidosa" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front vaidosa-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            VAIDOSA
+                        </div>
+                        <div class="back radial-grau vaidosa" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             VAIDOSA
                         </div>
                     </div>
                 </a>
-            </div> <!-- row -->
+                <!-- end linha 1-->
 
-            <div class="row row-eq-height">
                 <a href="{% url 'compartilhe' palavra="confiante" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center confiante">
+                    <div id="card-confiante" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front confiante-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            CONFIANTE
+                        </div>
+                        <div class="back radial-grau confiante" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             CONFIANTE
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="espontanea" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center espontanea">
-                            ESPONTÂNEA
+                    <div id="card-espontanea" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front espontanea-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            ESPONTANEA
+                        </div>
+                        <div class="back radial-grau espontanea" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
+                            ESPONTANEA
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="livre" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center livre">
+                    <div id="card-livre" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front livre-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            LIVRE
+                        </div>
+                        <div class="back radial-grau livre" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             LIVRE
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="misteriosa" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center misteriosa">
+                    <div id="card-misteriosa" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front misteriosa-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            MISTERIOSA
+                        </div>
+                        <div class="back radial-grau misteriosa" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             MISTERIOSA
                         </div>
                     </div>
                 </a>
-            </div> <!-- row -->
-            <div class="row">
+                <!-- end linha 2-->
                 <a href="{% url 'compartilhe' palavra="otimista" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center otimista">
+                    <div id="card-otimista" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front otimista-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            OTIMISTA
+                        </div>
+                        <div class="back radial-grau otimista" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             OTIMISTA
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="poderosa" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center poderosa">
+                    <div id="card-poderosa" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front poderosa-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            PODEROSA
+                        </div>
+                        <div class="back radial-grau poderosa" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             PODEROSA
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="zen" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center zen">
+                    <div id="card-zen" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front zen-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            ZEN
+                        </div>
+                        <div class="back radial-grau zen" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             ZEN
                         </div>
                     </div>
                 </a>
                 <a href="{% url 'compartilhe' palavra="apaixonada" %}">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="box radial-grau text-center apaixonada">
+                    <div id="card-apaixonada" class="card-grid" style="display:none; perspective: 600px; position: relative; transform-style: preserve-3d;">
+                        <div class="front apaixonada-flip" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
+                            APAIXONADA
+                        </div>
+                        <div class="back radial-grau apaixonada" style="transform: rotateY(-180deg); height: 169px; width: 269px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ease-out;">
                             APAIXONADA
                         </div>
                     </div>
                 </a>
-            </div> <!-- row -->
-        </div> <!-- container-fluid -->
+                <!-- end linha 3-->
+            </div> <!-- end grid container -->    
+ </div> <!-- container-fluid -->
+{% endblock %}
+
+{% block body_swiper %}
+        <!-- Initialize Swiper -->
+        <script src="{% static 'app/js/jquery.flip.min.js' %}"></script>
+        <script>
+            $(".card-grid").flip({
+              trigger: 'manual'
+            });
+
+            /* funcão do flip sequencial*/
+
+            $( document ).ready(function() {
+                $("#card-impulsiva").flip(true,function(){
+                    $("#card-linda").show(function(){
+                        $("#card-linda").flip(true,function(){
+                            $("#card-extrovertida").show(function(){
+                                $("#card-extrovertida").flip(true,function(){
+                                    $("#card-vaidosa").show(function(){
+                                        $("#card-vaidosa").flip(true,function(){
+                                            $("#card-confiante").show(function(){
+                                                $("#card-confiante").flip(true,function(){
+                                                    $("#card-espontanea").show(function(){
+                                                        $("#card-espontanea").flip(true,function(){
+                                                            $("#card-livre").show(function(){
+                                                                $("#card-livre").flip(true,function(){
+                                                                    $("#card-misteriosa").show(function(){
+                                                                        $("#card-misteriosa").flip(true,function(){
+                                                                            $("#card-otimista").show(function(){
+                                                                                $("#card-otimista").flip(true,function(){
+                                                                                    $("#card-poderosa").show(function(){
+                                                                                        $("#card-poderosa").flip(true,function(){                 
+                                                                                            $("#card-zen").show(function(){
+                                                                                                $("#card-zen").flip(true,function(){
+                                                                                                    $("#card-apaixonada").show(function(){
+                                                                                                        $("#card-apaixonada").flip(true);
+                                                                                                    });
+                                                                                                });
+                                                                                            });
+                                                                                        });
+                                                                                    });
+                                                                                });
+                                                                            });     
+                                                                        });
+                                                                    });
+                                                                });
+                                                            });
+                                                        });
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+
+            });
+            /* end funcão do flip sequencial*/ 
+        </script>
 
 {% endblock %}
