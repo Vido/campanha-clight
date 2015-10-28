@@ -120,6 +120,10 @@
 
     <script>
         function showDiv() {
+
+            // TACKER
+            tracker_event('Facebook', 'Campartilhar', {{ cor | lower }});
+
             h1 = document.getElementById('cor-publicada');
             h1.style.display = "block";
             swiper._slideNext();
