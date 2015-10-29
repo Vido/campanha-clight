@@ -8,7 +8,7 @@
 {% block body_content %}
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" id="div-header">
                <div class="col-md-10 col-xs-8">
                     <h1> QUAL ADJETIVO DESCREVE VOCÊ HOJE? </h1>
                 </div>
@@ -18,6 +18,7 @@
             </div> <!-- row -->
 
             <div id="grid-containter">
+                <!-- href="{% url 'compartilhe' palavra="impulsiva" %}" --> 
                 <a href="{% url 'compartilhe' palavra="impulsiva" %}" class="link">
                     <div id="card-impulsiva" class="card-grid" style="perspective: 600px; position: relative; transform-style: preserve-3d;">
                         <div class="front radial-grau" style="height: 169px; width: 226px; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ease-out; transform: rotateY(0deg);">
@@ -224,8 +225,25 @@
                 $(elemento + " > div.front").removeClass("radial-grau");
                 $(elemento + " > div.front").addClass( palavra + "-flip");
 
-                $( "p" ).removeClass( "myClass yourClass" )
+                $(elemento).on('flip:done',function(){
+                    $( elemento ).css("position","absolute");
+                    $( elemento ).css("z-index",10);
+                });
+
                 $(elemento).flip(false);
+
+                $("#div-header").animate({
+                    display: 'none'
+                },100);
+
+                $( elemento ).animate({
+                    width: '1024px',
+                    margin: 0,
+                    height: '768px'
+                    }, 500,function(){
+                        $( elemento ).css("top",0);
+                        $( elemento ).css("left",0);
+                    });
 
             });
 
