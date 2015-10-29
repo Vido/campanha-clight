@@ -54,7 +54,7 @@ def __getType(palavra):
         cor_image = "amarelo"
         mclass = "extrovertida"
         image = "app/imagens/produto-abacaxigengibre.png"
-        produto = "ABACAXI COM GENGIBRE"
+        produto = "ABACAXI E GENGIBRE"
         slogan = "O LADO EXTROVERTIDO DE CLIGHT."
         texto= "<p>Agitação é a palavra do dia! O clima é de muita conversa e novidades, perfeito para se divertir.</p><p> O amor é favorecido com programas diferentes. Que tal jantar naquele restaurante de comida tailandesa? Vai ter assunto pra noite inteira.</p>"
 
@@ -95,7 +95,7 @@ def __getType(palavra):
         cor_image = "turquesa"
         mclass = "livre"
         image = "app/imagens/produto-abacaxihortela.png"
-        produto = "ABACAXI COM HORTELÃ"
+        produto = "ABACAXI E HORTELÃ"
         slogan = "O LADO LIVRE DE CLIGHT."
         texto= "<p>Livre como o vento! Assim vai ser o seu dia. No amor, as coisas devem correr com tranquilidade e você poderá cativar quem você quiser, sem esforço.</p><p> Aproveite para fazer um programa romântico como um passeio ao luar e conversar a noite toda!</p>"
 

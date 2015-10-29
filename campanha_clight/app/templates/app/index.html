@@ -218,7 +218,13 @@
             /*Page transitions*/
 
             $( ".link" ).click(function(event) { 
-                var elemento = "#card-"+ event.target.id;
+                var palavra = event.target.id;
+                var elemento = "#card-" + palavra;
+
+                $(elemento + " > div.front").removeClass("radial-grau");
+                $(elemento + " > div.front").addClass( palavra + "-flip");
+
+                $( "p" ).removeClass( "myClass yourClass" )
                 $(elemento).flip(false);
 
             });
