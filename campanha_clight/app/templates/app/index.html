@@ -147,6 +147,12 @@
  </div> <!-- container-fluid -->
 {% endblock %}
 
+{% block body_scripts %}
+    <script>
+        tracker('home');
+    </script>
+{% endblock %}
+
 {% block body_swiper %}
         <!-- Initialize Swiper -->
         <script src="{% static 'app/js/jquery.flip.min.js' %}"></script>
@@ -245,8 +251,4 @@
         </script>
 
 {% endblock %}
-{% block body_scripts %}
-    <script>
-        tracker('home');
-    </script>
-{% endblock %}
+
