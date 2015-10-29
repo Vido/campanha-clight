@@ -147,15 +147,6 @@
  </div> <!-- container-fluid -->
 {% endblock %}
 
-
-{% block body_script %}
-    <script>
-        $(function() {
-            tracker('home');
-        });
-    </script>
-{% endblock %}
-
 {% block body_swiper %}
         <!-- Initialize Swiper -->
         <script src="{% static 'app/js/jquery.flip.min.js' %}"></script>
@@ -212,7 +203,7 @@
                         });
                     });
                 });
-
+                
             });
             /* end funcão do flip sequencial*/ 
 
@@ -253,4 +244,9 @@
 
         </script>
 
+{% endblock %}
+{% block body_scripts %}
+    <script>
+        tracker('home');
+    </script>
 {% endblock %}
