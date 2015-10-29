@@ -225,16 +225,18 @@
                 $(elemento + " > div.front").removeClass("radial-grau");
                 $(elemento + " > div.front").addClass( palavra + "-flip");
 
+                /*
                 $(elemento).on('flip:done',function(){
                     $( elemento ).css("position","absolute");
                     $( elemento ).css("z-index",10);
-                });
+                });*/
 
                 $(elemento).flip(false);
 
+                /*
                 $("#div-header").animate({
                     display: 'none'
-                },100);
+                });
 
                 $( elemento ).animate({
                     width: '1024px',
@@ -243,7 +245,7 @@
                     }, 500,function(){
                         $( elemento ).css("top",0);
                         $( elemento ).css("left",0);
-                    });
+                });*/
 
             });
 
