@@ -12,6 +12,12 @@ font-family: VerlagBook;
 src: url('../fonts/verlagbook.otf') format("opentype");
 }
 
+
+.title-index{
+    margin-top: 12px;
+    margin-right: -30px;
+}
+
 /* grid flip*/
 
 .card-grid{
