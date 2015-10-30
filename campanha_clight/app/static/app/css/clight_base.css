@@ -44,7 +44,11 @@ src: url('../fonts/verlagbook.otf') format("opentype");
 }
 
 .card-grid .front {
-  color: #666;
+  color: #fff;
+}
+
+.card-intro{
+    color: #666 !important;
 }
 
 .card-grid .back {
