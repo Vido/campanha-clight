@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^cor/(?P<palavra>[a-z]+)/$', views.cor, name='cor'),
     url(r'^sabor/(?P<palavra>[a-z]+)/$', views.sabor, name='sabor'),
     url(r'^compartilhe/(?P<palavra>[a-z]+)/$', views.compartilhe, name='compartilhe'),
+    url(r'^robots\.txt$', TemplateView.as_view(template_name='app/robots.txt')),
 ]
